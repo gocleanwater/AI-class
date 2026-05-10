@@ -457,7 +457,9 @@ CNN에서 shape 계산은 결국 각 층을 지나면서 높이($H$), 너비($W$
 Conv2D Layer를 지나면, 다음 공식으로 shape가 변한다.
 
 $$
-H_{out}=\lfloor((H+2P-K)/S)\rfloor+1\\\\
+H_{out}=\lfloor((H+2P-K)/S)\rfloor+1
+$$
+$$
 W_{out}=\lfloor((W+2P-K)/S)\rfloor+1
 $$
 
@@ -477,7 +479,7 @@ Output Width  = floor((W + 2P - K) / S) + 1
 | $P$ | Padding 크기 |
 | $S$ | Stride |
 
-그리고, $C_{out} = Number \, of\, filters$이다.
+그리고, $C_{out} = Number\, of\, filters$이다.
 
 그래서, Conv Layer의 출력 shape는 다음과 같다.
 

@@ -477,7 +477,7 @@ Output Width  = floor((W + 2P - K) / S) + 1
 | $P$ | Padding 크기 |
 | $S$ | Stride |
 
-그리고, $C_{out} = \# \, of\, filters$이다.
+그리고, $C_{out} = Number \, of\, filters$이다.
 
 그래서, Conv Layer의 출력 shape는 다음과 같다.
 
